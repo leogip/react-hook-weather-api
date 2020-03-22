@@ -1,0 +1,59 @@
+.app__card {
+  background: var(--color-bg-card);
+  color: var(--color-typo-card);
+}
+
+.card {
+  margin: 10px 0;
+  max-width: 360px;
+  border-radius: 15px;
+}
+
+.card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 15px 25px;
+}
+
+.card__header h3 {
+  font-size: 13px;
+  margin: 0;
+}
+
+.card__add {
+  position: absolute;
+  right: 20px;
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  color: #c7d0f8;
+  cursor: pointer;
+}
+
+.card__image {
+  padding: 0 25px;
+  width: 90px;
+}
+
+.card__temperature {
+  font-size: 40px;
+  margin: 10px 0;
+  font-weight: 600;
+  padding: 0 25px;
+}
+
+.card__more {
+  display: flex;
+  position: relative;
+  padding: 15px 25px;
+}
+
+.card__more > div {
+  margin-right: 20px;
+}
+
+.card__more > div > div {
+  margin-bottom: 15px;
+}
